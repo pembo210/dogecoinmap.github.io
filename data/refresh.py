@@ -6,8 +6,6 @@ from overpass import parser as overpass_parser
 scriptdir = os.path.dirname(os.path.abspath(__file__))
 
 coins = [
-	'Bitcoin',
-	'Litecoin',
     'Dogecoin'
 ]
 

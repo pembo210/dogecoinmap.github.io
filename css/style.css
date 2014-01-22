@@ -139,3 +139,8 @@ img.leaflet-marker-icon {
 body, .leaflet-popup,.leaflet-control{
     font-family:'Comic Sans MS' !important; /*!!!!!!!IMPORANT!!!!"!"!"!"!"!*/ 
 }
+
+.leaflet-popup-content-wrapper {
+    background-image: url('../img/doge-white.jpg') !important;
+    background-repeat: repeat-y;
+}

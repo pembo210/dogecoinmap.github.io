@@ -29,6 +29,7 @@ function coinmap_populate_overpass(cluster, coin) {
 			if (val['desc']) {
 				popup += val['desc'] + '<br/>';
 			}
+            popup='<div class="mydoge">'+popup+'</div>';
 			L.marker([lat, lon], {"title": title, icon: icon}).bindPopup(popup).addTo(cluster);
 		});
         if (coin=="dogecoin") {
