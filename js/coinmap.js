@@ -44,7 +44,7 @@ function coinmap() {
 
 	var map = L.map('map', {
 		center: [0, 0],
-		zoom: 3,
+		zoom: 2,
 		layers: map_layers,
 		worldCopyJump: true
 	});
@@ -112,7 +112,10 @@ function coinmap() {
 	map.on('overlayremove', redrawVenues);
 	map.on('overlayadd', redrawVenues);
 
-	map.locate({setView: true, maxZoom: 12});
+    $(document).ready( function(){
+        setTimeout(redrawVenues,500);
+    });
+	//map.locate({setView: true, maxZoom: 3});
 
 	map.addControl( new L.Control.Search({
 		url: 'http://nominatim.openstreetmap.org/search?format=json&q={s}',

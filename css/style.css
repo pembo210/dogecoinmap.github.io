@@ -135,3 +135,7 @@ img.leaflet-marker-icon {
     border-bottom: 1px rgb(230,230,230) solid;
     cursor:pointer;
 }
+
+body, .leaflet-popup,.leaflet-control{
+    font-family:'Comic Sans MS' !important; /*!!!!!!!IMPORANT!!!!"!"!"!"!"!*/ 
+}

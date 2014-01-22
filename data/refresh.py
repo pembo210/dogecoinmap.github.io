@@ -8,6 +8,7 @@ scriptdir = os.path.dirname(os.path.abspath(__file__))
 coins = [
 	'Bitcoin',
 	'Litecoin',
+    'Dogecoin'
 ]
 
 parsers = {

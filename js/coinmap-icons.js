@@ -1,7 +1,6 @@
 window.coinmap_icons = {};
 var specials = [
-'bitcoin',
-'litecoin',
+'dogecoin',
 ];
 for (var i = 0; i < specials.length; i++) {
 	window.coinmap_icons[specials[i]] = L.icon({
